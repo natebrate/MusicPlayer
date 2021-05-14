@@ -12,6 +12,7 @@
 		270A08126E7777B63D2FF128 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270A0EDF3B0E5535DDF910A5 /* AppDelegate.swift */; };
 		270A0BFFDBC165DACDE3B715 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 270A0C7539FDE61196DF9E95 /* Main.storyboard */; };
 		270A0CE0399254F83D48A9B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 270A07DF765910F5CD907E5A /* LaunchScreen.storyboard */; };
+		270A0DDA9CE36D35E864F69B /* suga_boom_boom.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270A0B15F8B42467FB81A996 /* suga_boom_boom.mp3 */; };
 		270A0E13F10A98A1036F120F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 270A02ABA8DCE07D33252126 /* Assets.xcassets */; };
 		270A0E218F6FF218FFB8033B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270A0BF72B524A0EC6B59232 /* ViewController.swift */; };
 		270A0E844019FCB0F151C537 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270A0ADD33C02FC31D57E75A /* SceneDelegate.swift */; };
@@ -43,6 +44,7 @@
 		270A07BA73B4D412672D37E9 /* MusicPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		270A08783F6928CAFA722F82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		270A0ADD33C02FC31D57E75A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		270A0B15F8B42467FB81A996 /* suga_boom_boom.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = suga_boom_boom.mp3; sourceTree = "<group>"; };
 		270A0BF72B524A0EC6B59232 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		270A0CF9E94DFFF6DC63539B /* MusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		270A0E0389E72384943407F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 				270A0ADD33C02FC31D57E75A /* SceneDelegate.swift */,
 				270A0BF72B524A0EC6B59232 /* ViewController.swift */,
 				270A0C7539FDE61196DF9E95 /* Main.storyboard */,
+				270A0B15F8B42467FB81A996 /* suga_boom_boom.mp3 */,
 			);
 			path = MusicPlayer;
 			sourceTree = "<group>";
@@ -197,7 +200,9 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
+				Base,
 			);
 			mainGroup = 270A09338A7F47C64608024D;
 			productRefGroup = 270A0ABB9F32D71C0F8EDFA6 /* Products */;
@@ -226,6 +231,7 @@
 				270A0E13F10A98A1036F120F /* Assets.xcassets in Resources */,
 				270A0CE0399254F83D48A9B0 /* LaunchScreen.storyboard in Resources */,
 				270A0BFFDBC165DACDE3B715 /* Main.storyboard in Resources */,
+				270A0DDA9CE36D35E864F69B /* suga_boom_boom.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,8 +394,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -504,6 +509,7 @@
 				270A023E186B77E5A6E550BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		270A0677838B8C2562D328FF /* Build configuration list for PBXNativeTarget "MusicPlayer" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +518,7 @@
 				270A058D3B81372D9A2604AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		270A0691A322C36E8C3ECEB9 /* Build configuration list for PBXNativeTarget "MusicPlayerTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +527,7 @@
 				270A083D0218BACCCC3E2D5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		270A0CA15B48957B39CC573E /* Build configuration list for PBXProject "MusicPlayer" */ = {
 			isa = XCConfigurationList;
